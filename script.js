@@ -5,8 +5,13 @@ const POKEMONS_COLORS = {
     "pidgeotto":"#AC7B5A","butterfree":"#8383BD","pidgeot":"#E6B462","spearow":"#EEAC52","fearow":"#EDD3B0",
     "raichu":"#FFD43E","nidorina":"#C5E6EE","rattata":"#D59CD5","nidorino":"#CD83DE","raticate":"#C59439",
     "ninetales":"#E6C552","ekans":"#EEA4D5","oddish":"#9CD54A","arbok":"#A483C5","pikachu":"#F6E652",
-    "gloom":"#7B83A4","vileplume":"#5A6283","sandshrew":"#EEDE10","venonat":"#A48BBD",
-    "venonat":"#A48BBD",
+    "gloom":"#7B83A4","vileplume":"#5A6283","sandshrew":"#EEDE10","venonat":"#A48BBD","nidoran-f":"#ACACCD",
+    "nidoran-m":"#12C392","arcanine":"#EE7331","vulpix":"#E6946A","bellsprout":"#F6E673","weepinbell":"#FFE66A",
+    "wigglytuff":"#FFACBD","victreebel":"#8BC57B","zubat":"#8BB4EE","golbat":"#5AACEE","ponyta":"#FFCE44",
+    "doduo":"#BD8B52","dodrio":"#CD9C52","magikarp":"#FF9C62","meowth":"#FFE683","ditto":"#C57BE6",
+    "persian":"#FFE683","psyduck":"#FFD54A","golduck":"#8BACD5","poliwag":"#5283C5","poliwhirl":"#5283C5",
+    "poliwrath":"#5283C5","nidoking":"#4194C5","clefairy":"#FFD5BD",
+    "clefable":"#FFC5B4",
 };
 
 var quantidade = document.getElementById('quantidade')

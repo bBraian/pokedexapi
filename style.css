@@ -10,6 +10,7 @@ body{
 
 .main{
     margin: 20px auto;
+    width: 94%;
     max-width: 1100px;
     background-color: #7fc596;
     padding: 30px 2%;
