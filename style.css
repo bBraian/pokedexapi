@@ -63,11 +63,14 @@ body{
 
 @media screen and (max-width:768px) {
     .pokemon-box{
-        width: 100%;
+        width: 46%;
         text-align: center;
     }
     .pokemon-box img{
         max-width: 300px;
+    }
+    .main{
+        width: 97%;
     }
 }
 
