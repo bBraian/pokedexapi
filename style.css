@@ -72,6 +72,12 @@ body{
     .main{
         width: 97%;
     }
+    .pokemon-box p{
+        font-size: 18px;
+    }
+    .button-search{
+        margin-left: 15px;
+    }
 }
 
 .main input{
@@ -84,4 +90,29 @@ body{
 .pokemon-box:hover {
     transform: scale(1.05);
     border: 1px solid aqua;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    margin: 0 15px;
+}
+
+.button-search{
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: #9AEDB5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+}
+
+.button-search:hover {
+    background-color: #74e99b;
 }

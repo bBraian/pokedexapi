@@ -14,9 +14,9 @@ const POKEMONS_COLORS = {
     "clefable":"#FFC5B4",
 };
 
-var quantidade = document.getElementById('quantidade')
-quantidade.addEventListener('keyup', function(){
-    pegaPokemons(quantidade.value);
+document.getElementById('search-btn').addEventListener('click', () => {
+    var quantidade = document.getElementById('quantidade').value;
+    pegaPokemons(quantidade);
 })
 
 pegaPokemons(3);
